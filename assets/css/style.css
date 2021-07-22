@@ -1,0 +1,66 @@
+body {
+  padding: 10%;
+}
+h2 {
+  text-align: center;
+}
+.box {
+  padding: 10px;
+}
+.box1 {
+  background: #3498db;
+}
+
+.box2 {
+  background: #d35400;
+}
+
+.box3 {
+  background: #1abc9c;
+}
+div {
+  border: 1px solid gray;
+  text-align: center;
+  color: white;
+}
+
+/* Schema1 */
+#schema1 {
+  margin-bottom: 10%;
+}
+#schema1 .box1 {
+  float: left;
+}
+#schema1 .box2 {
+  float: right;
+}
+#schema1 .box3 {
+  clear: left;
+}
+/* Schema2 */
+#schema2 {
+  margin-bottom: 10%;
+}
+#schema2 .box1 {
+  float: right;
+}
+#schema2 .box2 {
+  float: right;
+  clear: right;
+}
+#schema2 .box3 {
+  clear: right;
+}
+/* Schema3 */
+
+#schema3 .box1 {
+  float: right;
+}
+#schema3 .box2 {
+  float: right;
+  clear: right;
+}
+#schema3 .box3 {
+  clear: right;
+  float: right;
+}
